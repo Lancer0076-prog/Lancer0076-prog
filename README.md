@@ -10,17 +10,18 @@
 
 ---
 
-### 🔧 Основные направления и стек
-- **AI и автоматизация:** `n8n` (Self-hosted Docker & REST API), `LangGraph`, `MCP (Model Context Protocol)`, `Qdrant`, `Supabase`, `FastAPI`
-- **Локальные и облачные LLM / Media AI:** `RTX 3090` (`LM Studio`, `Ollama`, `ComfyUI`), `FFmpeg`, `Gemini`, `Claude`, `DeepSeek`, `Telethon (MTProto)`
-- **Инфраструктура и сети:** `Ubuntu Linux`, `Docker`, `Nginx`, `MariaDB`, `PostgreSQL`, `Keenetic API (Wake-on-LAN)`, `WordPress + WP-CLI`
-- **Железо, IoT и Gamedev:** `ESP32-S3` (`I2S`, `ESP-NOW`, `LoRa`), `C++`, `Godot 4 (GDScript)`, `Unity (C#)`, `Python`
+### 📦 Репозитории и проекты
+| Репозиторий | О чём проект |
+| --- | --- |
+| [`lancerlab-wp`](https://github.com/Lancer0076-prog/lancerlab-wp) | Сайт-визитка и инженерный блог LancerLab (WordPress, `mu-plugins`, WP-CLI, дорожная карта) |
+| [`n8n-ai-lab`](https://github.com/Lancer0076-prog/n8n-ai-lab) | Self-hosted `n8n` пайплайны, Wake-on-LAN через Keenetic API, ComfyUI и FFmpeg |
+| [`ai-telegram-twin`](https://github.com/Lancer0076-prog/ai-telegram-twin) | Автономный UserBot-ассистент на Telethon со стилометрией и Local RTX 3090 + Cloud Fallback |
+| [`godot-space-race`](https://github.com/Lancer0076-prog/godot-space-race) | Игра «Первый космический» на Godot 4 + headless-бот для симуляции баланса |
 
 ---
 
-### 🚀 Избранные проекты
-1. **Автономная видеофабрика AI** — связка `n8n` + `Telegram` + `Gemini` + автоматическое пробуждение GPU-сервера по `Wake-on-LAN` (`Keenetic API`) + `ComfyUI` (Frame-to-Frame Continuity) + `FFmpeg`.
-2. **AI Telegram Twin** — автономный UserBot-ассистент на `Telethon` со стилометрией речи владельца, гибридным LLM (RTX 3090 + Cloud Fallback) и режимом `Smart Pause`.
-3. **Портал Библиотеки КНУБА** — интеграция AI-агентов через WordPress MCP / REST API и техническая оптимизация (сжатие веса первого экрана на **82.3%**).
-4. **«Первый космический» (Godot 4)** — ретро-incremental игра про космическую гонку 1950–1975 гг. с headless-ботами для балансировки экономики.
-5. **LancerLab (`lancerlab-wp`)** — личный сайт-визитка и журнал экспериментов на домашнем мини-сервере.
+### 🔧 Стек технологий
+- **AI и автоматизация:** `n8n`, `LangGraph`, `MCP (Model Context Protocol)`, `Qdrant`, `Supabase`, `FastAPI`
+- **Локальные и облачные LLM / Media AI:** `RTX 3090` (`LM Studio`, `Ollama`, `ComfyUI`), `FFmpeg`, `Gemini`, `Claude`, `DeepSeek`, `Telethon`
+- **Инфраструктура и сети:** `Ubuntu Linux`, `Docker`, `Nginx`, `MariaDB`, `PostgreSQL`, `Keenetic API (Wake-on-LAN)`, `WordPress + WP-CLI`
+- **Железо, IoT и Gamedev:** `ESP32-S3` (`I2S`, `ESP-NOW`, `LoRa`), `C++`, `Godot 4 (GDScript)`, `Unity (C#)`, `Python`
